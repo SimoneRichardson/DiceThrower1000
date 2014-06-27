@@ -10,7 +10,9 @@ namespace DiceThrower1000
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Type a format like 6d7 where 7 is the number of sides and 6 is the number of times rolled");
+            Console.WriteLine("Type a format like 100d6 where 6 is the number of sides and 100 is the number of times rolled");
+            Console.WriteLine("Type a format like 3d20 where 20 is the number of sides and 3 is the number of times rolled");
+            Console.WriteLine("Type a format like 10d6 where 6 is the number of sides and 20 is the number of times rolled");
             string input = Console.ReadLine();
             Console.WriteLine("rolling: " + input);
             changeInput(input);
